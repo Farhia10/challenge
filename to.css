@@ -1,0 +1,178 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    background-color: hsl(229, 57%, 11%) ;
+    width: 100%;
+    height: 100%;
+}
+.f1 img{
+    width: 100%;
+   
+   
+    margin-top: 34%;
+    
+}
+.f2{
+    width: 30%;
+    height: 30%;
+
+   
+    background-color:hsl(228, 56%, 26%);
+    position: absolute;
+    top:410px;
+    left: 200px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    border-radius: 0 70px 0  0;
+   
+}
+.ic{
+    right: 222px;
+    position: absolute;
+}
+.icons{
+   
+   
+    text-align: center;
+    top:470px;
+    left: 250px;
+    position: absolute;
+    background-color: black;
+    border-radius: 15px;
+}
+.upload{
+    top:470px;
+    left: 300px;
+    position: absolute;
+
+}
+.folder{
+    top:470px;
+    left: 350px;
+position: absolute;  
+   
+
+}
+.icons img{
+    width: 20px;
+    height: 20px;
+   
+
+
+}
+.f3{
+    width: 30%;
+    height: 20%;
+
+   
+    background-color:hsl(228, 56%, 26%);
+    position: absolute;
+    top:410px;
+    left: 700px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    border-radius: 20px;
+
+}
+.f3 p{
+    font-size: 14px;
+    font-family: sans-serif;
+    top: 30px;
+    color: white;
+    position: absolute;
+}
+.bar{
+    background: #fff;
+    display: block;
+    height: 10px;
+    width: 300px;
+    margin-left: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),0 1px 1px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,25,.1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),0 10px 10px rgba(0, 0, 0, 0.24);  
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236,0,140,1)0%, rgba(252,102,102.1)100% );
+}
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+h1{
+    font-size: 14px;
+    font-family: sans-serif;
+    top: 76px;
+    color: white;
+    position: absolute;
+    left: 15%;
+
+}
+h2{
+    font-size: 14px;
+    font-family: sans-serif;
+    top: 73px;
+    color: white;
+    position: absolute;
+    left: 76%;
+}
+.rectangle {
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    top: -40px;
+    left: 67%;
+
+    background-color:white;
+  }
+.Triangle{
+    width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+    transform: rotate(86deg);
+	border-top: 50px solid white;
+    top: -25px;
+    left: 79%;
+    position: absolute;
+
+}
+h3{
+    font-size: 14px;
+    font-family: sans-serif;
+    top: -25%;
+    color: rgb(241, 13, 13);
+    position: absolute;
+    left: 74%;
+
+}
+@media screen and(max-width:144px){
+    .login-form .main{
+        flex-direction: column;;
+
+    }
+    
+}
+
+
+
+
